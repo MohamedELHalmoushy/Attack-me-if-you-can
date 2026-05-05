@@ -1,0 +1,1107 @@
+2026-04-04 22:23:56,111 [INFO] main — Running demo mode — 4 scenarios
+2026-04-04 22:23:56,216 [INFO] main — Processing scenario: DDoS Attack
+2026-04-04 22:23:56,290 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:35:52,417 [INFO] main — Running demo mode — 4 scenarios
+2026-04-04 22:35:52,486 [INFO] main — Processing scenario: DDoS Attack
+2026-04-04 22:35:52,561 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:36:32,012 [INFO] main — Running demo mode — 4 scenarios
+2026-04-04 22:36:32,077 [INFO] main — Processing scenario: DDoS Attack
+2026-04-04 22:36:32,146 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:37:26,615 [INFO] main — Running demo mode — 4 scenarios
+2026-04-04 22:37:26,680 [INFO] main — Processing scenario: DDoS Attack
+2026-04-04 22:37:26,751 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:39:14,760 [INFO] main — Running demo mode — 4 scenarios
+2026-04-04 22:39:14,825 [INFO] main — Processing scenario: DDoS Attack
+2026-04-04 22:39:14,893 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:39:15,841 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 22:39:20,880 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 22:39:21,401 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 22:39:21,594 [INFO] httpx — HTTP Request: GET https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 22:39:21,594 [WARNING] huggingface_hub.utils._http — Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-04 22:39:21,810 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-04-04 22:39:22,008 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/xet-read-token/714eb0fa89d2f80546fda750413ed43d93601a13 "HTTP/1.1 200 OK"
+2026-04-04 22:48:26,283 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-04 22:48:26,472 [INFO] httpx — HTTP Request: GET https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-04 22:48:26,758 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:48:26,956 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 22:48:27,230 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:48:27,469 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 22:48:27,658 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/vocab.txt "HTTP/1.1 200 OK"
+2026-04-04 22:48:27,867 [INFO] httpx — HTTP Request: GET https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/vocab.txt "HTTP/1.1 200 OK"
+2026-04-04 22:48:29,360 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer.json "HTTP/1.1 404 Not Found"
+2026-04-04 22:48:29,748 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-04-04 22:48:30,246 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/special_tokens_map.json "HTTP/1.1 404 Not Found"
+2026-04-04 22:48:30,448 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-04-04 22:48:30,483 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 22:48:30,568 [INFO] main — IDS=1.000  Anomaly=0.541  Log=0.006
+2026-04-04 22:48:30,569 [INFO] main — Fused score=0.663  Level=HIGH
+{"timestamp": "2026-04-04T22:48:30.569703", "risk_level": "HIGH", "score": 0.6635, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 22:48:30,577 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-04 22:48:30,577 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:48:30,653 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 22:48:30,806 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 22:48:31,065 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 22:48:31,357 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:48:31,537 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 22:48:31,713 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:48:31,898 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 22:48:31,914 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 22:48:31,963 [INFO] main — IDS=1.000  Anomaly=0.537  Log=0.000
+2026-04-04 22:48:31,963 [INFO] main — Fused score=0.661  Level=HIGH
+{"timestamp": "2026-04-04T22:48:31.964225", "risk_level": "HIGH", "score": 0.661, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 22:48:31,969 [INFO] main — Processing scenario: SQL Injection
+2026-04-04 22:48:31,970 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:48:32,049 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 22:48:32,195 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 22:48:32,371 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 22:48:32,616 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:48:32,790 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 22:48:32,965 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:48:33,149 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 22:48:33,164 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 22:48:33,208 [INFO] main — IDS=1.000  Anomaly=0.549  Log=0.000
+2026-04-04 22:48:33,209 [INFO] main — Fused score=0.665  Level=HIGH
+{"timestamp": "2026-04-04T22:48:33.209829", "risk_level": "HIGH", "score": 0.6647, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 22:48:33,215 [INFO] main — Processing scenario: Normal Traffic
+2026-04-04 22:48:33,216 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:48:33,297 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 22:48:33,444 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 22:48:33,624 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 22:48:33,857 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:48:34,155 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 22:48:34,382 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:48:34,602 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 22:48:34,621 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 22:48:34,666 [INFO] main — IDS=1.000  Anomaly=0.548  Log=0.995
+2026-04-04 22:48:34,666 [INFO] main — Fused score=0.863  Level=CRITICAL
+{"timestamp": "2026-04-04T22:48:34.667236", "risk_level": "CRITICAL", "score": 0.8634, "action": "BLOCK_IP", "source_ip": "unknown", "details": {}}
+2026-04-04 22:48:34,669 [WARNING] core.response_agent — [BLOCK_IP] Blocking unknown — score 0.863
+2026-04-04 22:58:26,438 [INFO] main — Running demo mode — 4 scenarios
+2026-04-04 22:58:26,503 [INFO] main — Processing scenario: DDoS Attack
+2026-04-04 22:58:26,572 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:58:27,609 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 22:58:31,367 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 22:58:31,864 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 22:58:32,106 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:58:32,283 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 22:58:32,460 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:58:32,642 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 22:58:32,658 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 22:58:32,708 [INFO] main — IDS=1.000  Anomaly=0.541  Log=0.006
+2026-04-04 22:58:32,708 [INFO] main — Fused score=0.663  Level=HIGH
+{"timestamp": "2026-04-04T22:58:32.709226", "risk_level": "HIGH", "score": 0.6635, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 22:58:32,714 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-04 22:58:32,714 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:58:32,789 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 22:58:32,949 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 22:58:33,122 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 22:58:33,339 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:58:33,517 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 22:58:33,694 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:58:33,866 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 22:58:33,883 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 22:58:33,932 [INFO] main — IDS=1.000  Anomaly=0.537  Log=0.000
+2026-04-04 22:58:33,932 [INFO] main — Fused score=0.661  Level=HIGH
+{"timestamp": "2026-04-04T22:58:33.933175", "risk_level": "HIGH", "score": 0.661, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 22:58:33,938 [INFO] main — Processing scenario: SQL Injection
+2026-04-04 22:58:33,938 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:58:34,032 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 22:58:34,193 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 22:58:34,367 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 22:58:34,596 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:58:34,771 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 22:58:34,984 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:58:35,165 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 22:58:35,180 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 22:58:35,221 [INFO] main — IDS=1.000  Anomaly=0.549  Log=0.000
+2026-04-04 22:58:35,222 [INFO] main — Fused score=0.665  Level=HIGH
+{"timestamp": "2026-04-04T22:58:35.222893", "risk_level": "HIGH", "score": 0.6647, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 22:58:35,228 [INFO] main — Processing scenario: Normal Traffic
+2026-04-04 22:58:35,228 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 22:58:35,304 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 22:58:35,456 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 22:58:35,633 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 22:58:35,843 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:58:36,019 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 22:58:36,299 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 22:58:36,480 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 22:58:36,494 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 22:58:36,536 [INFO] main — IDS=1.000  Anomaly=0.548  Log=0.995
+2026-04-04 22:58:36,536 [INFO] main — Fused score=0.863  Level=CRITICAL
+{"timestamp": "2026-04-04T22:58:36.537224", "risk_level": "CRITICAL", "score": 0.8634, "action": "BLOCK_IP", "source_ip": "unknown", "details": {}}
+2026-04-04 22:58:36,540 [WARNING] core.response_agent — [BLOCK_IP] Blocking unknown — score 0.863
+2026-04-04 23:09:25,920 [INFO] main — Running demo mode — 4 scenarios
+2026-04-04 23:09:25,987 [INFO] main — Processing scenario: DDoS Attack
+2026-04-04 23:09:26,058 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:09:27,077 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:09:30,619 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:09:31,115 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 23:09:31,116 [WARNING] huggingface_hub.utils._http — Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-04 23:09:31,357 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:09:31,532 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 23:09:31,706 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:09:31,882 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 23:09:31,898 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:09:31,950 [INFO] main — IDS=1.000  Anomaly=0.541  Log=0.006
+2026-04-04 23:09:31,951 [INFO] main — Fused score=0.663  Level=HIGH
+{"timestamp": "2026-04-04T23:09:31.951906", "risk_level": "HIGH", "score": 0.6635, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 23:09:31,958 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-04 23:09:31,958 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:09:32,041 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:09:32,192 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:09:32,367 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 23:09:32,579 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:09:32,753 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 23:09:32,932 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:09:33,108 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 23:09:33,122 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:09:33,168 [INFO] main — IDS=1.000  Anomaly=0.537  Log=0.000
+2026-04-04 23:09:33,168 [INFO] main — Fused score=0.661  Level=HIGH
+{"timestamp": "2026-04-04T23:09:33.168986", "risk_level": "HIGH", "score": 0.661, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 23:09:33,174 [INFO] main — Processing scenario: SQL Injection
+2026-04-04 23:09:33,174 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:09:33,257 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:09:33,407 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:09:33,594 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 23:09:33,806 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:09:33,993 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 23:09:34,171 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:09:34,355 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 23:09:34,369 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:09:34,415 [INFO] main — IDS=1.000  Anomaly=0.549  Log=0.000
+2026-04-04 23:09:34,415 [INFO] main — Fused score=0.665  Level=HIGH
+{"timestamp": "2026-04-04T23:09:34.416592", "risk_level": "HIGH", "score": 0.6647, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 23:09:34,421 [INFO] main — Processing scenario: Normal Traffic
+2026-04-04 23:09:34,421 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:09:34,497 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:09:34,647 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:09:34,820 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 23:09:35,033 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:09:35,207 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 23:09:35,380 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:09:35,555 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 23:09:35,570 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:09:35,615 [INFO] main — IDS=1.000  Anomaly=0.548  Log=0.995
+2026-04-04 23:09:35,616 [INFO] main — Fused score=0.863  Level=CRITICAL
+{"timestamp": "2026-04-04T23:09:35.616641", "risk_level": "CRITICAL", "score": 0.8634, "action": "BLOCK_IP", "source_ip": "unknown", "details": {}}
+2026-04-04 23:09:35,620 [WARNING] core.response_agent — [BLOCK_IP] Blocking unknown — score 0.863
+2026-04-04 23:11:27,505 [INFO] main — Running demo mode — 4 scenarios
+2026-04-04 23:11:27,572 [INFO] main — Processing scenario: DDoS Attack
+2026-04-04 23:11:27,645 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:11:28,678 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:11:32,161 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:12:03,417 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:12:04,307 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 23:12:15,282 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:12:15,469 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 23:12:15,524 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:12:15,589 [INFO] main — IDS=1.000  Anomaly=0.541  Log=0.006
+2026-04-04 23:12:15,589 [INFO] main — Fused score=0.663  Level=HIGH
+{"timestamp": "2026-04-04T23:12:15.590301", "risk_level": "HIGH", "score": 0.6635, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 23:12:15,599 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-04 23:12:15,599 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:12:15,690 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:12:15,837 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:12:47,371 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:12:57,871 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 23:12:58,048 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:26:14,037 [INFO] main — Running demo mode — 4 scenarios
+2026-04-04 23:26:14,103 [INFO] main — Processing scenario: DDoS Attack
+2026-04-04 23:26:14,173 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:26:15,191 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:26:19,283 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:35:28,457 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:35:28,556 [INFO] main — IDS=1.000  Anomaly=0.541  Log=0.006
+2026-04-04 23:35:28,557 [INFO] main — Fused score=0.663  Level=HIGH
+{"timestamp": "2026-04-04T23:35:28.557488", "risk_level": "HIGH", "score": 0.6635, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 23:35:28,563 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-04 23:35:28,563 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:35:28,656 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:35:28,825 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:35:28,888 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:35:28,949 [INFO] main — IDS=1.000  Anomaly=0.537  Log=0.000
+2026-04-04 23:35:28,949 [INFO] main — Fused score=0.661  Level=HIGH
+{"timestamp": "2026-04-04T23:35:28.949885", "risk_level": "HIGH", "score": 0.661, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 23:35:28,955 [INFO] main — Processing scenario: SQL Injection
+2026-04-04 23:35:28,955 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:35:29,041 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:35:29,194 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:35:29,295 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:35:29,340 [INFO] main — IDS=1.000  Anomaly=0.549  Log=0.000
+2026-04-04 23:35:29,340 [INFO] main — Fused score=0.665  Level=HIGH
+{"timestamp": "2026-04-04T23:35:29.341453", "risk_level": "HIGH", "score": 0.6647, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 23:35:29,347 [INFO] main — Processing scenario: Normal Traffic
+2026-04-04 23:35:29,347 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:35:29,430 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:35:29,589 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:35:29,665 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:35:29,711 [INFO] main — IDS=1.000  Anomaly=0.548  Log=0.995
+2026-04-04 23:35:29,712 [INFO] main — Fused score=0.863  Level=CRITICAL
+{"timestamp": "2026-04-04T23:35:29.712698", "risk_level": "CRITICAL", "score": 0.8634, "action": "BLOCK_IP", "source_ip": "unknown", "details": {}}
+2026-04-04 23:35:29,715 [WARNING] core.response_agent — [BLOCK_IP] Blocking unknown — score 0.863
+2026-04-04 23:36:56,754 [INFO] main — Running demo mode — 4 scenarios
+2026-04-04 23:36:56,823 [INFO] main — Processing scenario: DDoS Attack
+2026-04-04 23:36:56,898 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:36:57,907 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:37:01,546 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:51:17,528 [INFO] main — Running demo mode — 4 scenarios
+2026-04-04 23:51:17,597 [INFO] main — Processing scenario: DDoS Attack
+2026-04-04 23:51:17,669 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:51:18,762 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:51:22,961 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:51:23,477 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 23:51:23,776 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:51:24,027 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 23:51:24,251 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:51:24,440 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 23:51:24,462 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:51:24,511 [INFO] main — IDS=1.000  Anomaly=0.541  Log=0.006
+2026-04-04 23:51:24,511 [INFO] main — Fused score=0.663  Level=HIGH
+{"timestamp": "2026-04-04T23:51:24.512366", "risk_level": "HIGH", "score": 0.6635, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 23:51:24,518 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-04 23:51:24,518 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:51:24,605 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:51:24,784 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:51:25,076 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 23:51:25,428 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:51:25,606 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 23:51:25,777 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:51:25,957 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 23:51:25,980 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:51:26,024 [INFO] main — IDS=1.000  Anomaly=0.537  Log=0.000
+2026-04-04 23:51:26,025 [INFO] main — Fused score=0.661  Level=HIGH
+{"timestamp": "2026-04-04T23:51:26.025527", "risk_level": "HIGH", "score": 0.661, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 23:51:26,030 [INFO] main — Processing scenario: SQL Injection
+2026-04-04 23:51:26,030 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:51:26,124 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:51:26,341 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:51:26,523 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 23:51:26,524 [WARNING] huggingface_hub.utils._http — Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-04 23:51:26,749 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:51:26,943 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 23:51:27,145 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:51:27,323 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 23:51:27,341 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:51:27,391 [INFO] main — IDS=1.000  Anomaly=0.549  Log=0.000
+2026-04-04 23:51:27,391 [INFO] main — Fused score=0.665  Level=HIGH
+{"timestamp": "2026-04-04T23:51:27.392449", "risk_level": "HIGH", "score": 0.6647, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-04 23:51:27,396 [INFO] main — Processing scenario: Normal Traffic
+2026-04-04 23:51:27,396 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-04 23:51:27,475 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-04 23:51:27,666 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-04 23:51:27,841 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-04 23:51:28,074 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:51:28,248 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-04 23:51:28,422 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-04 23:51:28,605 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-04 23:51:28,636 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-04 23:51:28,683 [INFO] main — IDS=1.000  Anomaly=0.548  Log=0.995
+2026-04-04 23:51:28,683 [INFO] main — Fused score=0.863  Level=CRITICAL
+{"timestamp": "2026-04-04T23:51:28.684044", "risk_level": "CRITICAL", "score": 0.8634, "action": "BLOCK_IP", "source_ip": "unknown", "details": {}}
+2026-04-04 23:51:28,686 [WARNING] core.response_agent — [BLOCK_IP] Blocking unknown — score 0.863
+2026-04-05 00:07:28,101 [INFO] main â€” Running demo mode â€” 4 scenarios
+2026-04-05 00:07:28,178 [INFO] main â€” Processing scenario: DDoS Attack
+2026-04-05 00:07:28,267 [INFO] IDSAgent â€” Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 00:07:29,254 [INFO] AnomalyAgent â€” Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 00:07:33,535 [INFO] LogAgent â€” Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 00:07:35,116 [INFO] httpx â€” HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 00:07:35,359 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 00:07:35,539 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 00:07:35,969 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 00:07:36,147 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 00:07:36,167 [INFO] LogAgent â€” DistilBERT loaded successfully.
+2026-04-05 00:07:36,218 [INFO] main â€” IDS=1.000  Anomaly=0.541  Log=0.006
+2026-04-05 00:07:36,219 [INFO] main â€” Fused score=0.663  Level=HIGH
+{"timestamp": "2026-04-05T00:07:36.219462", "risk_level": "HIGH", "score": 0.6635, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 00:07:36,219 [INFO] core.response_agent â€” ðŸŸ  HIGH [0.663] â†’ SEND_ALERT
+2026-04-05 00:07:36,220 [WARNING] core.response_agent â€” [SEND_ALERT] Alert â†’ team7@example.com  score=0.663
+2026-04-05 00:07:36,220 [INFO] main â€” Processing scenario: Brute Force SSH
+2026-04-05 00:07:36,221 [INFO] IDSAgent â€” Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 00:07:36,305 [INFO] AnomalyAgent â€” Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 00:07:36,457 [INFO] LogAgent â€” Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 00:07:36,634 [INFO] httpx â€” HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 00:07:36,843 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 00:07:37,023 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 00:07:37,198 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 00:07:37,378 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 00:07:37,392 [INFO] LogAgent â€” DistilBERT loaded successfully.
+2026-04-05 00:07:37,438 [INFO] main â€” IDS=1.000  Anomaly=0.537  Log=0.000
+2026-04-05 00:07:37,438 [INFO] main â€” Fused score=0.661  Level=HIGH
+{"timestamp": "2026-04-05T00:07:37.439324", "risk_level": "HIGH", "score": 0.661, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 00:07:37,439 [INFO] core.response_agent â€” ðŸŸ  HIGH [0.661] â†’ SEND_ALERT
+2026-04-05 00:07:37,439 [WARNING] core.response_agent â€” [SEND_ALERT] Alert â†’ team7@example.com  score=0.661
+2026-04-05 00:07:37,440 [INFO] main â€” Processing scenario: SQL Injection
+2026-04-05 00:07:37,440 [INFO] IDSAgent â€” Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 00:07:37,539 [INFO] AnomalyAgent â€” Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 00:07:37,694 [INFO] LogAgent â€” Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 00:07:37,869 [INFO] httpx â€” HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 00:07:37,870 [WARNING] huggingface_hub.utils._http â€” Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-05 00:07:38,080 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 00:07:38,256 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 00:07:38,454 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 00:07:38,688 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 00:07:38,703 [INFO] LogAgent â€” DistilBERT loaded successfully.
+2026-04-05 00:07:38,747 [INFO] main â€” IDS=1.000  Anomaly=0.549  Log=0.000
+2026-04-05 00:07:38,748 [INFO] main â€” Fused score=0.665  Level=HIGH
+{"timestamp": "2026-04-05T00:07:38.748535", "risk_level": "HIGH", "score": 0.6647, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 00:07:38,749 [INFO] core.response_agent â€” ðŸŸ  HIGH [0.665] â†’ SEND_ALERT
+2026-04-05 00:07:38,749 [WARNING] core.response_agent â€” [SEND_ALERT] Alert â†’ team7@example.com  score=0.665
+2026-04-05 00:07:38,749 [INFO] main â€” Processing scenario: Normal Traffic
+2026-04-05 00:07:38,750 [INFO] IDSAgent â€” Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 00:07:38,825 [INFO] AnomalyAgent â€” Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 00:07:38,973 [INFO] LogAgent â€” Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 00:07:39,149 [INFO] httpx â€” HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 00:07:39,819 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 00:07:40,008 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 00:07:40,180 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 00:07:40,354 [INFO] httpx â€” HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 00:07:40,368 [INFO] LogAgent â€” DistilBERT loaded successfully.
+2026-04-05 00:07:40,412 [INFO] main â€” IDS=1.000  Anomaly=0.548  Log=0.995
+2026-04-05 00:07:40,413 [INFO] main â€” Fused score=0.863  Level=CRITICAL
+{"timestamp": "2026-04-05T00:07:40.413499", "risk_level": "CRITICAL", "score": 0.8634, "action": "BLOCK_IP", "source_ip": "unknown", "details": {}}
+2026-04-05 00:07:40,413 [INFO] core.response_agent â€” ðŸ”´ CRITICAL [0.863] â†’ BLOCK_IP
+2026-04-05 00:07:40,414 [WARNING] core.response_agent â€” [BLOCK_IP] Blocking unknown â€” score 0.863
+2026-04-05 13:15:40,809 [INFO] main — No arguments — running single DDoS demo.
+2026-04-05 13:15:40,877 [INFO] main — Processing scenario: DDoS Attack
+2026-04-05 13:15:40,964 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:16:46,944 [INFO] main — No arguments — running single DDoS demo.
+2026-04-05 13:16:47,008 [INFO] main — Processing scenario: DDoS Attack
+2026-04-05 13:16:47,083 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:17:52,842 [INFO] main — No arguments — running single DDoS demo.
+2026-04-05 13:17:52,905 [INFO] main — Processing scenario: DDoS Attack
+2026-04-05 13:17:52,979 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:17:53,910 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:18:01,399 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:18:01,857 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:18:02,218 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:18:02,391 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:18:02,564 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:18:02,739 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:18:03,276 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:18:04,710 [INFO] main — IDS=0.418  Anomaly=0.636  Log=0.006
+2026-04-05 13:18:04,710 [INFO] main — Fused score=0.401  Level=MEDIUM
+{"timestamp": "2026-04-05T13:18:04.710970", "risk_level": "MEDIUM", "score": 0.4009, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+2026-04-05 13:18:04,714 [INFO] core.response_agent — [MONITOR] Escalating monitoring for IP unknown
+2026-04-05 13:20:22,778 [INFO] main — Running demo mode — 4 scenarios
+2026-04-05 13:20:22,841 [INFO] main — Processing scenario: DDoS Attack
+2026-04-05 13:20:22,914 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:20:23,849 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:20:27,990 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:20:28,420 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:20:28,659 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:20:28,833 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:20:29,005 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:20:29,178 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:20:29,207 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:20:29,250 [INFO] main — IDS=0.418  Anomaly=0.636  Log=0.006
+2026-04-05 13:20:29,251 [INFO] main — Fused score=0.401  Level=MEDIUM
+{"timestamp": "2026-04-05T13:20:29.251810", "risk_level": "MEDIUM", "score": 0.4009, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+2026-04-05 13:20:29,255 [INFO] core.response_agent — [MONITOR] Escalating monitoring for IP unknown
+2026-04-05 13:20:29,256 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-05 13:20:29,256 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:20:29,380 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:20:30,281 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:20:30,457 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:20:30,458 [WARNING] huggingface_hub.utils._http — Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-05 13:20:30,665 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:20:30,840 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:20:31,017 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:20:31,190 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:20:31,204 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:20:31,247 [INFO] main — IDS=0.063  Anomaly=0.647  Log=0.000
+2026-04-05 13:20:31,247 [INFO] main — Fused score=0.226  Level=LOW
+{"timestamp": "2026-04-05T13:20:31.248241", "risk_level": "LOW", "score": 0.2258, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:20:31,251 [INFO] main — Processing scenario: SQL Injection
+2026-04-05 13:20:31,251 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:20:31,339 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:20:32,293 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:20:32,636 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:20:32,843 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:20:33,101 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:20:33,272 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:20:33,462 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:20:33,476 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:20:33,515 [INFO] main — IDS=0.017  Anomaly=0.651  Log=0.000
+2026-04-05 13:20:33,516 [INFO] main — Fused score=0.204  Level=LOW
+{"timestamp": "2026-04-05T13:20:33.516584", "risk_level": "LOW", "score": 0.2036, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:20:33,519 [INFO] main — Processing scenario: Normal Traffic
+2026-04-05 13:20:33,519 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:20:33,604 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:20:34,446 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:20:34,663 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:20:35,221 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:20:35,794 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:20:36,022 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:20:36,217 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:20:36,232 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:20:36,271 [INFO] main — IDS=0.004  Anomaly=0.653  Log=0.995
+2026-04-05 13:20:36,272 [INFO] main — Fused score=0.397  Level=LOW
+{"timestamp": "2026-04-05T13:20:36.272777", "risk_level": "LOW", "score": 0.3968, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:22:31,889 [INFO] main — Running demo mode — 4 scenarios
+2026-04-05 13:22:31,955 [INFO] main — Processing scenario: DDoS Attack
+2026-04-05 13:22:32,033 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:22:33,033 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:22:37,072 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:22:37,517 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:22:37,517 [WARNING] huggingface_hub.utils._http — Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-05 13:22:37,752 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:22:37,924 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:22:38,098 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:22:38,282 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:22:38,297 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:22:38,343 [INFO] main — IDS=0.418  Anomaly=0.636  Log=0.006
+2026-04-05 13:22:38,344 [INFO] main — Fused score=0.401  Level=MEDIUM
+{"timestamp": "2026-04-05T13:22:38.344634", "risk_level": "MEDIUM", "score": 0.4009, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+2026-04-05 13:22:38,347 [INFO] core.response_agent — [MONITOR] Escalating monitoring for IP unknown
+2026-04-05 13:22:38,348 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-05 13:22:38,348 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:22:38,445 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:22:39,338 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:22:39,512 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:22:39,718 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:22:39,891 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:22:40,063 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:22:40,238 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:22:40,253 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:22:40,291 [INFO] main — IDS=0.063  Anomaly=0.647  Log=0.000
+2026-04-05 13:22:40,291 [INFO] main — Fused score=0.226  Level=LOW
+{"timestamp": "2026-04-05T13:22:40.292212", "risk_level": "LOW", "score": 0.2258, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:22:40,295 [INFO] main — Processing scenario: SQL Injection
+2026-04-05 13:22:40,296 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:22:40,387 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:22:41,254 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:22:41,430 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:22:41,639 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:22:41,815 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:22:41,988 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:22:42,160 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:22:42,174 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:22:42,212 [INFO] main — IDS=0.017  Anomaly=0.651  Log=0.000
+2026-04-05 13:22:42,213 [INFO] main — Fused score=0.204  Level=LOW
+{"timestamp": "2026-04-05T13:22:42.213801", "risk_level": "LOW", "score": 0.2036, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:22:42,216 [INFO] main — Processing scenario: Normal Traffic
+2026-04-05 13:22:42,216 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:22:42,307 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:22:43,246 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:22:43,420 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:22:43,642 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:22:43,815 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:22:43,988 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:22:44,159 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:22:44,177 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:22:44,216 [INFO] main — IDS=0.004  Anomaly=0.653  Log=0.995
+2026-04-05 13:22:44,217 [INFO] main — Fused score=0.397  Level=LOW
+{"timestamp": "2026-04-05T13:22:44.217602", "risk_level": "LOW", "score": 0.3968, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:39:20,092 [INFO] main — Running demo mode — 4 scenarios
+2026-04-05 13:39:20,156 [INFO] main — Processing scenario: DDoS Attack
+2026-04-05 13:39:20,229 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:39:21,494 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:39:27,070 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:39:27,525 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:39:27,792 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:39:27,965 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:39:28,137 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:39:28,313 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:39:28,343 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:39:28,600 [INFO] main — IDS=0.418  Anomaly=0.636  Log=0.006
+2026-04-05 13:39:28,600 [INFO] main — Fused score=0.401  Level=MEDIUM
+{"timestamp": "2026-04-05T13:39:28.601355", "risk_level": "MEDIUM", "score": 0.4009, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+2026-04-05 13:39:28,605 [INFO] core.response_agent — [MONITOR] Escalating monitoring for IP unknown
+2026-04-05 13:39:28,605 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-05 13:39:28,606 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:39:28,696 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:39:29,341 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:39:29,520 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:39:29,740 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:39:29,915 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:39:30,152 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:39:30,324 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:39:30,338 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:39:30,382 [INFO] main — IDS=0.063  Anomaly=0.647  Log=0.000
+2026-04-05 13:39:30,382 [INFO] main — Fused score=0.226  Level=LOW
+{"timestamp": "2026-04-05T13:39:30.383259", "risk_level": "LOW", "score": 0.2258, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:39:30,385 [INFO] main — Processing scenario: SQL Injection
+2026-04-05 13:39:30,386 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:39:30,476 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:39:31,091 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:39:31,271 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:39:31,478 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:39:31,649 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:39:31,821 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:39:31,995 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:39:32,021 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:39:32,066 [INFO] main — IDS=0.017  Anomaly=0.651  Log=0.000
+2026-04-05 13:39:32,066 [INFO] main — Fused score=0.204  Level=LOW
+{"timestamp": "2026-04-05T13:39:32.067197", "risk_level": "LOW", "score": 0.2036, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:39:32,070 [INFO] main — Processing scenario: Normal Traffic
+2026-04-05 13:39:32,070 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:39:32,159 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:39:32,792 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:39:32,967 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:39:33,188 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:39:33,363 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:39:33,541 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:39:33,718 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:39:33,734 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:39:33,778 [INFO] main — IDS=0.004  Anomaly=0.653  Log=0.995
+2026-04-05 13:39:33,778 [INFO] main — Fused score=0.397  Level=LOW
+{"timestamp": "2026-04-05T13:39:33.778883", "risk_level": "LOW", "score": 0.3968, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:40:39,529 [INFO] main — Running demo mode — 4 scenarios
+2026-04-05 13:40:39,591 [INFO] main — Processing scenario: DDoS Attack
+2026-04-05 13:40:39,664 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:40:40,579 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:40:44,572 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:40:45,230 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:40:45,464 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:40:45,638 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:40:45,813 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:40:45,986 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:40:46,002 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:40:46,048 [INFO] main — IDS=0.418  Anomaly=0.636  Log=0.006
+2026-04-05 13:40:46,049 [INFO] main — Fused score=0.401  Level=MEDIUM
+{"timestamp": "2026-04-05T13:40:46.050442", "risk_level": "MEDIUM", "score": 0.4009, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+2026-04-05 13:40:46,053 [INFO] core.response_agent — [MONITOR] Escalating monitoring for IP unknown
+2026-04-05 13:40:46,054 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-05 13:40:46,055 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:40:46,143 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:40:46,755 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:40:46,929 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:40:46,930 [WARNING] huggingface_hub.utils._http — Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-05 13:40:47,147 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:40:47,319 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:40:47,492 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:40:47,666 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:40:47,681 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:40:47,720 [INFO] main — IDS=0.063  Anomaly=0.647  Log=0.000
+2026-04-05 13:40:47,720 [INFO] main — Fused score=0.226  Level=LOW
+{"timestamp": "2026-04-05T13:40:47.721615", "risk_level": "LOW", "score": 0.2258, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:40:47,724 [INFO] main — Processing scenario: SQL Injection
+2026-04-05 13:40:47,724 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:40:47,813 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:40:48,430 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:40:48,603 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:40:48,814 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:40:48,990 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:40:49,162 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:40:49,344 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:40:49,358 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:40:49,397 [INFO] main — IDS=0.017  Anomaly=0.651  Log=0.000
+2026-04-05 13:40:49,397 [INFO] main — Fused score=0.204  Level=LOW
+{"timestamp": "2026-04-05T13:40:49.398588", "risk_level": "LOW", "score": 0.2036, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:40:49,401 [INFO] main — Processing scenario: Normal Traffic
+2026-04-05 13:40:49,402 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:40:49,485 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:40:50,099 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:40:50,270 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:40:50,480 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:40:50,653 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:40:50,825 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:40:51,000 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:40:51,014 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:40:51,053 [INFO] main — IDS=0.004  Anomaly=0.653  Log=0.995
+2026-04-05 13:40:51,053 [INFO] main — Fused score=0.397  Level=LOW
+{"timestamp": "2026-04-05T13:40:51.054253", "risk_level": "LOW", "score": 0.3968, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 13:59:19,225 [INFO] main — No arguments — running single DDoS demo.
+2026-04-05 13:59:19,290 [INFO] main — Processing scenario: DDoS Attack
+2026-04-05 13:59:19,366 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:59:40,645 [INFO] main — No arguments — running single DDoS demo.
+2026-04-05 13:59:40,714 [INFO] main — Processing scenario: DDoS Attack
+2026-04-05 13:59:40,794 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:59:41,692 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 13:59:45,939 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 13:59:46,404 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 13:59:46,405 [WARNING] huggingface_hub.utils._http — Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-05 13:59:46,643 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:59:46,817 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 13:59:46,988 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 13:59:47,164 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 13:59:47,179 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 13:59:47,226 [INFO] main — IDS=0.418  Anomaly=0.636  Log=0.006
+2026-04-05 13:59:47,227 [INFO] main — Fused score=0.401  Level=MEDIUM
+{"timestamp": "2026-04-05T13:59:47.227732", "risk_level": "MEDIUM", "score": 0.4009, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+2026-04-05 13:59:47,230 [INFO] core.response_agent — [MONITOR] Escalating monitoring for IP unknown
+2026-04-05 13:59:58,222 [INFO] main — Running demo mode — 4 scenarios
+2026-04-05 13:59:58,285 [INFO] main — Processing scenario: DDoS Attack
+2026-04-05 13:59:58,358 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 13:59:59,249 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:00:03,309 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:00:03,718 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:00:03,719 [WARNING] huggingface_hub.utils._http — Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-05 14:00:03,959 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:00:04,132 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:00:04,310 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:00:04,493 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:00:04,510 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 14:00:04,555 [INFO] main — IDS=0.418  Anomaly=0.636  Log=0.006
+2026-04-05 14:00:04,556 [INFO] main — Fused score=0.401  Level=MEDIUM
+{"timestamp": "2026-04-05T14:00:04.557050", "risk_level": "MEDIUM", "score": 0.4009, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+2026-04-05 14:00:04,560 [INFO] core.response_agent — [MONITOR] Escalating monitoring for IP unknown
+2026-04-05 14:00:04,561 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-05 14:00:04,561 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:00:04,655 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:00:05,288 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:00:05,468 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:00:05,717 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:00:05,892 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:00:06,150 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:00:06,326 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:00:06,341 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 14:00:06,381 [INFO] main — IDS=0.063  Anomaly=0.647  Log=0.000
+2026-04-05 14:00:06,381 [INFO] main — Fused score=0.226  Level=LOW
+{"timestamp": "2026-04-05T14:00:06.382172", "risk_level": "LOW", "score": 0.2258, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 14:00:06,385 [INFO] main — Processing scenario: SQL Injection
+2026-04-05 14:00:06,385 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:00:06,471 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:00:07,105 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:00:07,281 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:00:07,502 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:00:07,674 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:00:07,906 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:00:08,086 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:00:08,100 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 14:00:08,140 [INFO] main — IDS=0.017  Anomaly=0.651  Log=0.000
+2026-04-05 14:00:08,140 [INFO] main — Fused score=0.204  Level=LOW
+{"timestamp": "2026-04-05T14:00:08.141096", "risk_level": "LOW", "score": 0.2036, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 14:00:08,144 [INFO] main — Processing scenario: Normal Traffic
+2026-04-05 14:00:08,144 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:00:08,230 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:00:08,885 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:00:09,085 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:00:09,292 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:00:09,466 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:00:09,639 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:00:09,814 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:00:09,830 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 14:00:09,867 [INFO] main — IDS=0.004  Anomaly=0.653  Log=0.995
+2026-04-05 14:00:09,867 [INFO] main — Fused score=0.397  Level=LOW
+{"timestamp": "2026-04-05T14:00:09.868189", "risk_level": "LOW", "score": 0.3968, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 14:03:24,026 [INFO] main — Running demo mode — 4 scenarios
+2026-04-05 14:03:24,096 [INFO] main — Processing scenario: DDoS Attack
+2026-04-05 14:03:24,173 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:03:25,141 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:03:29,164 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:03:29,872 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:03:30,216 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:03:30,546 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:03:30,751 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:03:30,924 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:03:30,940 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 14:03:30,987 [INFO] main — IDS=0.418  Anomaly=0.636  Log=0.006
+2026-04-05 14:03:30,988 [INFO] main — Fused score=0.401  Level=MEDIUM
+{"timestamp": "2026-04-05T14:03:30.988940", "risk_level": "MEDIUM", "score": 0.4009, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+2026-04-05 14:03:30,989 [INFO] core.response_agent — [MEDIUM] MEDIUM [0.401] -> MONITOR
+2026-04-05 14:03:30,989 [INFO] core.response_agent — [MONITOR] Escalating monitoring for IP unknown
+2026-04-05 14:03:30,990 [INFO] main — Processing scenario: Brute Force SSH
+2026-04-05 14:03:30,990 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:03:31,078 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:03:31,695 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:03:31,948 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:03:31,949 [WARNING] huggingface_hub.utils._http — Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-05 14:03:32,249 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:03:32,522 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:03:32,788 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:03:33,064 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:03:33,078 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 14:03:33,119 [INFO] main — IDS=0.063  Anomaly=0.647  Log=0.000
+2026-04-05 14:03:33,119 [INFO] main — Fused score=0.226  Level=LOW
+{"timestamp": "2026-04-05T14:03:33.120286", "risk_level": "LOW", "score": 0.2258, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 14:03:33,120 [INFO] core.response_agent — [LOW] LOW [0.226] -> LOG_ONLY
+2026-04-05 14:03:33,121 [INFO] main — Processing scenario: SQL Injection
+2026-04-05 14:03:33,121 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:03:33,213 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:03:33,849 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:03:34,107 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:03:34,347 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:03:34,587 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:03:34,855 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:03:35,052 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:03:35,065 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 14:03:35,104 [INFO] main — IDS=0.017  Anomaly=0.651  Log=0.000
+2026-04-05 14:03:35,105 [INFO] main — Fused score=0.204  Level=LOW
+{"timestamp": "2026-04-05T14:03:35.105400", "risk_level": "LOW", "score": 0.2036, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 14:03:35,105 [INFO] core.response_agent — [LOW] LOW [0.204] -> LOG_ONLY
+2026-04-05 14:03:35,106 [INFO] main — Processing scenario: Normal Traffic
+2026-04-05 14:03:35,107 [INFO] IDSAgent — Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:03:35,198 [INFO] AnomalyAgent — Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:03:35,846 [INFO] LogAgent — Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:03:36,024 [INFO] httpx — HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:03:36,241 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:03:36,419 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:03:36,597 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:03:36,812 [INFO] httpx — HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:03:36,826 [INFO] LogAgent — DistilBERT loaded successfully.
+2026-04-05 14:03:36,864 [INFO] main — IDS=0.004  Anomaly=0.653  Log=0.995
+2026-04-05 14:03:36,865 [INFO] main — Fused score=0.397  Level=LOW
+{"timestamp": "2026-04-05T14:03:36.865610", "risk_level": "LOW", "score": 0.3968, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 14:03:36,866 [INFO] core.response_agent — [LOW] LOW [0.397] -> LOG_ONLY
+2026-04-05 14:05:24,087 [INFO] main - Loading demo samples from test.csv...
+2026-04-05 14:05:30,249 [INFO] main -   Loaded: DDoS Attack               (60 features)
+2026-04-05 14:05:30,300 [INFO] main -   Loaded: Port Scan                 (60 features)
+2026-04-05 14:05:30,309 [INFO] main -   Loaded: SQL Injection             (60 features)
+2026-04-05 14:05:30,479 [INFO] main -   Loaded: Normal Traffic            (60 features)
+2026-04-05 14:05:30,519 [INFO] main - Running demo mode -- 4 scenarios
+2026-04-05 14:05:30,525 [INFO] main - Processing scenario: DDoS Attack
+2026-04-05 14:05:30,579 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:05:31,227 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:05:35,217 [INFO] LogAgent - Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:05:35,980 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:05:36,316 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:05:36,493 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:05:36,670 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:05:36,848 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:05:36,863 [INFO] LogAgent - DistilBERT loaded successfully.
+2026-04-05 14:05:36,910 [INFO] main - IDS=1.000  Anomaly=0.584  Log=0.006
+2026-04-05 14:05:36,911 [INFO] main - Fused score=0.677  Level=HIGH
+{"timestamp": "2026-04-05T14:05:36.911573", "risk_level": "HIGH", "score": 0.6766, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 14:05:36,912 [INFO] core.response_agent - [HIGH] HIGH [0.677] -> SEND_ALERT
+2026-04-05 14:05:36,912 [WARNING] core.response_agent - [SEND_ALERT] Alert -> team7@example.com  score=0.677
+2026-04-05 14:05:36,913 [INFO] main - Processing scenario: Port Scan
+2026-04-05 14:05:36,913 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:05:37,008 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:05:37,623 [INFO] LogAgent - Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:05:37,799 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:05:37,800 [WARNING] huggingface_hub.utils._http - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-05 14:05:38,012 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:05:38,191 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:05:38,367 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:05:38,547 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:05:38,560 [INFO] LogAgent - DistilBERT loaded successfully.
+2026-04-05 14:05:38,602 [INFO] main - IDS=1.000  Anomaly=0.531  Log=0.009
+2026-04-05 14:05:38,602 [INFO] main - Fused score=0.661  Level=HIGH
+{"timestamp": "2026-04-05T14:05:38.602972", "risk_level": "HIGH", "score": 0.6611, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 14:05:38,603 [INFO] core.response_agent - [HIGH] HIGH [0.661] -> SEND_ALERT
+2026-04-05 14:05:38,603 [WARNING] core.response_agent - [SEND_ALERT] Alert -> team7@example.com  score=0.661
+2026-04-05 14:05:38,604 [INFO] main - Processing scenario: SQL Injection
+2026-04-05 14:05:38,604 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:05:38,693 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:05:39,309 [INFO] LogAgent - Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:05:39,489 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:05:39,702 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:05:39,877 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:05:40,110 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:05:40,411 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:05:40,426 [INFO] LogAgent - DistilBERT loaded successfully.
+2026-04-05 14:05:40,466 [INFO] main - IDS=0.996  Anomaly=0.494  Log=0.001
+2026-04-05 14:05:40,467 [INFO] main - Fused score=0.646  Level=MEDIUM
+{"timestamp": "2026-04-05T14:05:40.467592", "risk_level": "MEDIUM", "score": 0.6463, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+2026-04-05 14:05:40,468 [INFO] core.response_agent - [MEDIUM] MEDIUM [0.646] -> MONITOR
+2026-04-05 14:05:40,468 [INFO] core.response_agent - [MONITOR] Escalating monitoring for IP unknown
+2026-04-05 14:05:40,469 [INFO] main - Processing scenario: Normal Traffic
+2026-04-05 14:05:40,469 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:05:40,555 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:05:41,169 [INFO] LogAgent - Loading DistilBERT from: distilbert-base-uncased-finetuned-sst-2-english
+2026-04-05 14:05:41,435 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:05:41,733 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:05:41,997 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:05:42,262 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:05:42,437 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:05:42,452 [INFO] LogAgent - DistilBERT loaded successfully.
+2026-04-05 14:05:42,490 [INFO] main - IDS=0.000  Anomaly=0.507  Log=0.995
+2026-04-05 14:05:42,491 [INFO] main - Fused score=0.351  Level=LOW
+{"timestamp": "2026-04-05T14:05:42.491555", "risk_level": "LOW", "score": 0.351, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 14:05:42,492 [INFO] core.response_agent - [LOW] LOW [0.351] -> LOG_ONLY
+2026-04-05 14:15:52,396 [INFO] main - Loading demo samples from test.csv...
+2026-04-05 14:15:58,457 [INFO] main -   Loaded: DDoS Attack               (60 features)
+2026-04-05 14:15:58,510 [INFO] main -   Loaded: Port Scan                 (60 features)
+2026-04-05 14:15:58,518 [INFO] main -   Loaded: SQL Injection             (60 features)
+2026-04-05 14:15:58,687 [INFO] main -   Loaded: Normal Traffic            (60 features)
+2026-04-05 14:15:58,731 [INFO] main - Running demo mode -- 4 scenarios
+2026-04-05 14:15:58,740 [INFO] main - Processing scenario: DDoS Attack
+2026-04-05 14:15:58,796 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:15:59,454 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:16:03,948 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:16:03,948 [WARNING] huggingface_hub.utils._http - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-05 14:16:04,161 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:16:04,311 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:16:04,461 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:16:04,615 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:16:04,631 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 14:16:04,678 [INFO] main - IDS=1.000  Anomaly=0.584  Log=0.801
+2026-04-05 14:16:04,678 [INFO] main - Fused score=0.836  Level=HIGH
+{"timestamp": "2026-04-05T14:16:04.678839", "risk_level": "HIGH", "score": 0.8356, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 14:16:04,679 [INFO] core.response_agent - [HIGH] HIGH [0.836] -> SEND_ALERT
+2026-04-05 14:16:04,679 [WARNING] core.response_agent - [SEND_ALERT] Alert -> team7@example.com  score=0.836
+2026-04-05 14:16:04,680 [INFO] main - Processing scenario: Port Scan
+2026-04-05 14:16:04,680 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:16:04,765 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:16:05,948 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:16:06,132 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:16:06,292 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:16:06,443 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:16:06,597 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:16:06,612 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 14:16:06,654 [INFO] main - IDS=1.000  Anomaly=0.531  Log=0.802
+2026-04-05 14:16:06,655 [INFO] main - Fused score=0.820  Level=HIGH
+{"timestamp": "2026-04-05T14:16:06.655759", "risk_level": "HIGH", "score": 0.8197, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 14:16:06,656 [INFO] core.response_agent - [HIGH] HIGH [0.820] -> SEND_ALERT
+2026-04-05 14:16:06,656 [WARNING] core.response_agent - [SEND_ALERT] Alert -> team7@example.com  score=0.820
+2026-04-05 14:16:06,656 [INFO] main - Processing scenario: SQL Injection
+2026-04-05 14:16:06,657 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:16:06,749 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:16:07,785 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:16:07,971 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:16:08,125 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:16:08,274 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:16:08,428 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:16:08,442 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 14:16:08,480 [INFO] main - IDS=0.996  Anomaly=0.494  Log=0.800
+2026-04-05 14:16:08,480 [INFO] main - Fused score=0.806  Level=HIGH
+{"timestamp": "2026-04-05T14:16:08.481313", "risk_level": "HIGH", "score": 0.8061, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 14:16:08,481 [INFO] core.response_agent - [HIGH] HIGH [0.806] -> SEND_ALERT
+2026-04-05 14:16:08,481 [WARNING] core.response_agent - [SEND_ALERT] Alert -> team7@example.com  score=0.806
+2026-04-05 14:16:08,482 [INFO] main - Processing scenario: Normal Traffic
+2026-04-05 14:16:08,482 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 14:16:08,568 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 14:16:09,638 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 14:16:09,823 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:16:09,974 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 14:16:10,124 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 14:16:10,277 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 14:16:10,294 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 14:16:10,332 [INFO] main - IDS=0.000  Anomaly=0.507  Log=0.199
+2026-04-05 14:16:10,332 [INFO] main - Fused score=0.192  Level=LOW
+{"timestamp": "2026-04-05T14:16:10.333208", "risk_level": "LOW", "score": 0.1919, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 14:16:10,333 [INFO] core.response_agent - [LOW] LOW [0.192] -> LOG_ONLY
+2026-04-05 14:22:15,610 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{"timestamp": "2026-04-05T14:22:16.394887", "risk_level": "HIGH", "score": 0.8278, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 14:22:16,395 [WARNING] [SEND_ALERT] Alert -> team7@example.com  score=0.828
+{"timestamp": "2026-04-05T14:22:31.336862", "risk_level": "HIGH", "score": 0.8354, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 14:22:31,337 [WARNING] [SEND_ALERT] Alert -> team7@example.com  score=0.835
+{"timestamp": "2026-04-05T14:22:45.769100", "risk_level": "LOW", "score": 0.1843, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 15:10:11,510 [INFO] main - Loading demo samples from test.csv...
+2026-04-05 15:10:19,798 [INFO] main -   Loaded: DDoS Attack               (60 features)
+2026-04-05 15:10:19,862 [INFO] main -   Loaded: Port Scan                 (60 features)
+2026-04-05 15:10:19,887 [INFO] main -   Loaded: SQL Injection             (60 features)
+2026-04-05 15:10:20,090 [INFO] main -   Loaded: Normal Traffic            (60 features)
+2026-04-05 15:10:20,133 [INFO] main - Running demo mode -- 4 scenarios
+2026-04-05 15:10:20,146 [INFO] main - Processing scenario: DDoS Attack
+2026-04-05 15:10:20,231 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 15:10:21,322 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 15:10:28,110 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 15:10:28,392 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 15:10:28,612 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 15:10:28,956 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 15:10:29,647 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 15:10:29,678 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 15:10:29,931 [INFO] main - IDS=1.000  Anomaly=0.584  Log=0.801
+2026-04-05 15:10:29,931 [INFO] main - Fused score=0.836  Level=HIGH
+{"timestamp": "2026-04-05T15:10:29.932304", "risk_level": "HIGH", "score": 0.8356, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 15:10:29,932 [INFO] core.response_agent - [HIGH] HIGH [0.836] -> SEND_ALERT
+2026-04-05 15:10:29,932 [WARNING] core.response_agent - [SEND_ALERT] Alert -> team7@example.com  score=0.836
+2026-04-05 15:10:29,933 [INFO] main - Processing scenario: Port Scan
+2026-04-05 15:10:29,933 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 15:10:30,024 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 15:10:30,985 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 15:10:30,986 [WARNING] huggingface_hub.utils._http - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-05 15:10:31,176 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 15:10:31,335 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 15:10:31,509 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 15:10:31,694 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 15:10:31,709 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 15:10:31,761 [INFO] main - IDS=1.000  Anomaly=0.531  Log=0.802
+2026-04-05 15:10:31,761 [INFO] main - Fused score=0.820  Level=HIGH
+{"timestamp": "2026-04-05T15:10:31.761908", "risk_level": "HIGH", "score": 0.8197, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 15:10:31,762 [INFO] core.response_agent - [HIGH] HIGH [0.820] -> SEND_ALERT
+2026-04-05 15:10:31,762 [WARNING] core.response_agent - [SEND_ALERT] Alert -> team7@example.com  score=0.820
+2026-04-05 15:10:31,763 [INFO] main - Processing scenario: SQL Injection
+2026-04-05 15:10:31,763 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 15:10:31,864 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 15:10:32,890 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 15:10:33,088 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 15:10:33,241 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 15:10:33,394 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 15:10:33,546 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 15:10:33,567 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 15:10:33,624 [INFO] main - IDS=0.996  Anomaly=0.494  Log=0.800
+2026-04-05 15:10:33,625 [INFO] main - Fused score=0.806  Level=HIGH
+{"timestamp": "2026-04-05T15:10:33.626145", "risk_level": "HIGH", "score": 0.8061, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 15:10:33,626 [INFO] core.response_agent - [HIGH] HIGH [0.806] -> SEND_ALERT
+2026-04-05 15:10:33,626 [WARNING] core.response_agent - [SEND_ALERT] Alert -> team7@example.com  score=0.806
+2026-04-05 15:10:33,627 [INFO] main - Processing scenario: Normal Traffic
+2026-04-05 15:10:33,627 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 15:10:33,739 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 15:10:34,858 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 15:10:35,160 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 15:10:35,434 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 15:10:35,588 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 15:10:35,745 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 15:10:35,784 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 15:10:35,871 [INFO] main - IDS=0.000  Anomaly=0.507  Log=0.199
+2026-04-05 15:10:35,872 [INFO] main - Fused score=0.192  Level=LOW
+{"timestamp": "2026-04-05T15:10:35.872746", "risk_level": "LOW", "score": 0.1919, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 15:10:35,873 [INFO] core.response_agent - [LOW] LOW [0.192] -> LOG_ONLY
+2026-04-05 16:32:14,714 [INFO] main - Loading demo samples from test.csv...
+2026-04-05 16:32:22,817 [INFO] main -   Loaded: DDoS Attack               (60 features)
+2026-04-05 16:32:22,880 [INFO] main -   Loaded: Port Scan                 (60 features)
+2026-04-05 16:32:22,889 [INFO] main -   Loaded: SQL Injection             (60 features)
+2026-04-05 16:32:23,088 [INFO] main -   Loaded: Normal Traffic            (60 features)
+2026-04-05 16:32:23,147 [INFO] main - Running demo mode -- 4 scenarios
+2026-04-05 16:32:23,172 [INFO] main - Processing scenario: DDoS Attack
+2026-04-05 16:32:23,270 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 16:32:24,223 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 16:32:33,230 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 16:32:33,231 [WARNING] huggingface_hub.utils._http - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-05 16:32:33,667 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 16:32:34,001 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 16:32:34,231 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 16:32:34,450 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 16:32:34,484 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 16:32:34,730 [INFO] main - IDS=1.000  Anomaly=0.584  Log=0.801
+2026-04-05 16:32:34,730 [INFO] main - Fused score=0.836  Level=HIGH
+{"timestamp": "2026-04-05T16:32:34.730871", "risk_level": "HIGH", "score": 0.8356, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 16:32:34,731 [INFO] core.response_agent - [HIGH] HIGH [0.836] -> SEND_ALERT
+2026-04-05 16:32:34,731 [WARNING] core.response_agent - [SEND_ALERT] Alert -> team7@example.com  score=0.836
+2026-04-05 16:32:34,732 [INFO] main - Processing scenario: Port Scan
+2026-04-05 16:32:34,732 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 16:32:34,819 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 16:32:35,771 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 16:32:36,007 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 16:32:36,240 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 16:32:36,433 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 16:32:36,611 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 16:32:36,625 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 16:32:36,661 [INFO] main - IDS=1.000  Anomaly=0.531  Log=0.802
+2026-04-05 16:32:36,662 [INFO] main - Fused score=0.820  Level=HIGH
+{"timestamp": "2026-04-05T16:32:36.662754", "risk_level": "HIGH", "score": 0.8197, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 16:32:36,663 [INFO] core.response_agent - [HIGH] HIGH [0.820] -> SEND_ALERT
+2026-04-05 16:32:36,663 [WARNING] core.response_agent - [SEND_ALERT] Alert -> team7@example.com  score=0.820
+2026-04-05 16:32:36,664 [INFO] main - Processing scenario: SQL Injection
+2026-04-05 16:32:36,664 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 16:32:36,744 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 16:32:37,704 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 16:32:37,914 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 16:32:38,067 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 16:32:38,220 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 16:32:38,412 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 16:32:38,439 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 16:32:38,478 [INFO] main - IDS=0.996  Anomaly=0.494  Log=0.800
+2026-04-05 16:32:38,478 [INFO] main - Fused score=0.806  Level=HIGH
+{"timestamp": "2026-04-05T16:32:38.479098", "risk_level": "HIGH", "score": 0.8061, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-05 16:32:38,479 [INFO] core.response_agent - [HIGH] HIGH [0.806] -> SEND_ALERT
+2026-04-05 16:32:38,479 [WARNING] core.response_agent - [SEND_ALERT] Alert -> team7@example.com  score=0.806
+2026-04-05 16:32:38,480 [INFO] main - Processing scenario: Normal Traffic
+2026-04-05 16:32:38,481 [INFO] IDSAgent - Loading IDS model from models/ids_xgboost.pkl
+2026-04-05 16:32:38,563 [INFO] AnomalyAgent - Loading Anomaly model from models/anomaly_isoforest.pkl
+2026-04-05 16:32:39,719 [INFO] httpx - HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-05 16:32:39,945 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 16:32:40,139 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-05 16:32:40,341 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-05 16:32:40,545 [INFO] httpx - HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-05 16:32:40,568 [INFO] LogAgent - DistilBERT loaded as secondary signal.
+2026-04-05 16:32:40,623 [INFO] main - IDS=0.000  Anomaly=0.507  Log=0.199
+2026-04-05 16:32:40,623 [INFO] main - Fused score=0.192  Level=LOW
+{"timestamp": "2026-04-05T16:32:40.624332", "risk_level": "LOW", "score": 0.1919, "action": "LOG_ONLY", "source_ip": "unknown", "details": {}}
+2026-04-05 16:32:40,625 [INFO] core.response_agent - [LOW] LOW [0.192] -> LOG_ONLY
+2026-04-06 23:28:48,463 [INFO] main - Loading demo samples from test.csv...
+{"timestamp": "2026-04-27T20:03:28.754009", "risk_level": "HIGH", "score": 0.8178, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-27 20:03:28,754 [ERROR] Email credentials not set in environment variables
+{"timestamp": "2026-04-27T20:03:34.086824", "risk_level": "HIGH", "score": 0.8359, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-27 20:03:34,087 [ERROR] Email credentials not set in environment variables
+{"timestamp": "2026-04-27T20:03:54.834081", "risk_level": "HIGH", "score": 0.8232, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-27 20:03:54,834 [ERROR] Email credentials not set in environment variables
+2026-04-27 20:04:28,591 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{"timestamp": "2026-04-27T20:04:29.672412", "risk_level": "HIGH", "score": 0.846, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-27 20:04:29,672 [ERROR] Email credentials not set in environment variables
+{"timestamp": "2026-04-27T20:09:44.029879", "risk_level": "HIGH", "score": 0.8139, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-27 20:09:44,030 [ERROR] Email credentials not set in environment variables
+{"timestamp": "2026-04-27T20:10:32.244843", "risk_level": "HIGH", "score": 0.8336, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-27 20:10:32,245 [ERROR] Email credentials not set in environment variables
+{"timestamp": "2026-04-27T20:15:28.751987", "risk_level": "HIGH", "score": 0.8341, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-27 20:15:32,180 [ERROR] Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-43fe4e3a18csm93799287f8f.20 - gsmtp')
+{"timestamp": "2026-04-27T20:20:56.793952", "risk_level": "HIGH", "score": 0.8203, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-27 20:21:06,589 [ERROR] Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a7743d8b4sm930655e9.0 - gsmtp')
+{"timestamp": "2026-04-27T20:23:01.688995", "risk_level": "HIGH", "score": 0.8359, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-27 20:23:08,555 [ERROR] Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a7749cabdsm242585e9.9 - gsmtp')
+{"timestamp": "2026-04-27T20:25:56.359698", "risk_level": "HIGH", "score": 0.8341, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-27 20:26:04,851 [ERROR] Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-48a773aeb6dsm3652825e9.5 - gsmtp')
+2026-04-27 20:28:03,964 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+{"timestamp": "2026-04-27T20:28:08.567533", "risk_level": "HIGH", "score": 0.8183, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+2026-04-27 20:28:30,909 [WARNING] [EMAIL SENT] Alert sent to 01228838159.z@gmail.com
+{"timestamp": "2026-04-29T21:34:56.606905", "risk_level": "HIGH", "score": 0.7751, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T21:43:56.996723", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T21:49:45.501211", "risk_level": "HIGH", "score": 0.7747, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T21:51:40.385278", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T21:55:47.240690", "risk_level": "HIGH", "score": 0.777, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T21:58:09.119116", "risk_level": "HIGH", "score": 0.777, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T21:58:57.261022", "risk_level": "HIGH", "score": 0.777, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T21:59:32.386142", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T21:59:43.561004", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T22:00:50.838703", "risk_level": "HIGH", "score": 0.777, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T22:02:24.670107", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T22:06:59.852412", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T22:08:47.772469", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T22:10:26.802668", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T22:11:36.648851", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-29T22:14:41.597241", "risk_level": "HIGH", "score": 0.7752, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T00:34:01.228770", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T16:36:05.666746", "risk_level": "HIGH", "score": 0.7751, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T16:36:36.445645", "risk_level": "MEDIUM", "score": 0.6478, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T16:36:46.548647", "risk_level": "MEDIUM", "score": 0.6478, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T16:36:59.190622", "risk_level": "HIGH", "score": 0.7682, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T16:37:12.317342", "risk_level": "HIGH", "score": 0.7, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T16:37:22.227755", "risk_level": "MEDIUM", "score": 0.4148, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T16:37:33.178385", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:43:13.059691", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:43:23.092365", "risk_level": "HIGH", "score": 0.7751, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:43:33.282047", "risk_level": "MEDIUM", "score": 0.5486, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:43:43.907760", "risk_level": "HIGH", "score": 0.7697, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:51:03.592526", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:52:15.403033", "risk_level": "HIGH", "score": 0.7751, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:52:38.356715", "risk_level": "MEDIUM", "score": 0.5486, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:53:09.564526", "risk_level": "HIGH", "score": 0.7697, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:56:14.653795", "risk_level": "MEDIUM", "score": 0.542, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:57:15.543947", "risk_level": "MEDIUM", "score": 0.5067, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:57:32.180353", "risk_level": "MEDIUM", "score": 0.4148, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:57:51.753624", "risk_level": "MEDIUM", "score": 0.6478, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:58:10.105185", "risk_level": "MEDIUM", "score": 0.5392, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:58:37.053107", "risk_level": "HIGH", "score": 0.7778, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:58:46.919633", "risk_level": "HIGH", "score": 0.7778, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:58:55.851324", "risk_level": "HIGH", "score": 0.7778, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:59:33.150569", "risk_level": "MEDIUM", "score": 0.5451, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T20:59:43.291107", "risk_level": "HIGH", "score": 0.7703, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:00:14.056319", "risk_level": "HIGH", "score": 0.7758, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:00:42.988543", "risk_level": "HIGH", "score": 0.7758, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:02:10.036716", "risk_level": "HIGH", "score": 0.7752, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:03:02.934599", "risk_level": "HIGH", "score": 0.7751, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:03:14.126158", "risk_level": "HIGH", "score": 0.7747, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:04:39.513292", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:49:29.870678", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:56:34.014094", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:56:57.066850", "risk_level": "HIGH", "score": 0.7751, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:57:03.342948", "risk_level": "MEDIUM", "score": 0.5486, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:57:41.823825", "risk_level": "HIGH", "score": 0.7747, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T21:58:23.158141", "risk_level": "HIGH", "score": 0.7747, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:01:10.031825", "risk_level": "HIGH", "score": 0.7747, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:02:13.197953", "risk_level": "HIGH", "score": 0.7747, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:02:43.736821", "risk_level": "HIGH", "score": 0.7747, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:03:21.326042", "risk_level": "HIGH", "score": 0.7747, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:07:53.188177", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:08:23.278701", "risk_level": "HIGH", "score": 0.775, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:08:43.147092", "risk_level": "MEDIUM", "score": 0.4927, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:09:43.414373", "risk_level": "MEDIUM", "score": 0.4716, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:09:58.694791", "risk_level": "MEDIUM", "score": 0.4895, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:10:16.640019", "risk_level": "HIGH", "score": 0.7749, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:10:37.451677", "risk_level": "HIGH", "score": 0.7751, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:11:25.497264", "risk_level": "HIGH", "score": 0.7747, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:11:34.966542", "risk_level": "HIGH", "score": 0.7747, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:11:43.993038", "risk_level": "MEDIUM", "score": 0.5486, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:11:52.138947", "risk_level": "MEDIUM", "score": 0.5481, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:13:34.835644", "risk_level": "HIGH", "score": 0.6863, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:13:43.274522", "risk_level": "MEDIUM", "score": 0.441, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:13:57.492961", "risk_level": "MEDIUM", "score": 0.4629, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:14:01.451253", "risk_level": "HIGH", "score": 0.6862, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:14:07.364679", "risk_level": "HIGH", "score": 0.7748, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:17:14.410399", "risk_level": "HIGH", "score": 0.7778, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:17:25.359943", "risk_level": "HIGH", "score": 0.7778, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:17:40.892373", "risk_level": "HIGH", "score": 0.7778, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:18:48.581167", "risk_level": "HIGH", "score": 0.7682, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:19:38.844257", "risk_level": "MEDIUM", "score": 0.5392, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:49:31.903437", "risk_level": "HIGH", "score": 0.7682, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:49:49.771106", "risk_level": "MEDIUM", "score": 0.5499, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:50:10.518391", "risk_level": "HIGH", "score": 0.7708, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:50:32.336848", "risk_level": "HIGH", "score": 0.7758, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:50:40.650700", "risk_level": "HIGH", "score": 0.7703, "action": "SEND_ALERT", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:51:02.787187", "risk_level": "MEDIUM", "score": 0.4148, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:51:11.251010", "risk_level": "MEDIUM", "score": 0.5067, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:51:21.075501", "risk_level": "MEDIUM", "score": 0.5067, "action": "MONITOR", "source_ip": "unknown", "details": {}}
+{"timestamp": "2026-04-30T22:51:27.430951", "risk_level": "MEDIUM", "score": 0.5067, "action": "MONITOR", "source_ip": "unknown", "details": {}}
